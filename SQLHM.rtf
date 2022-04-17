@@ -3,6 +3,7 @@
  SQL
 
  1. Create database and tables :
+ 
  CREATE DATABASE store;
  
 USE store;
@@ -68,6 +69,7 @@ alter table order_products
 add foreign key (product_id) references products(id) ;
 
 3. constrains :
+
  USE store;
 alter table countries
 ADD CONSTRAINT constraint_name UNIQUE (name);
@@ -112,6 +114,7 @@ add countries_num int ;
  USE store;
 alter table users
 add phone_number int ;
+
 4. DML commands :
 
  USE store;
