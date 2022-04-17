@@ -84,7 +84,7 @@ ADD CONSTRAINT constraint_name UNIQUE (email);
 
  USE store;
 alter table users
-add check (gender in ( 'm','f'));
+add check (gender in ( 'm'or'f'));
 
  USE store;
 alter table orders
