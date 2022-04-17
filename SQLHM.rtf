@@ -107,6 +107,10 @@ modify name varchar(20) not null;
 alter table products
 add check (status in ( 'valid'or'expired'));
 
+ 
+
+4. DML commands :
+
  USE store;
 alter table countries
 add countries_num int ;
@@ -114,8 +118,6 @@ add countries_num int ;
  USE store;
 alter table users
 add phone_number int ;
-
-4. DML commands :
 
  USE store;
 alter table orders
